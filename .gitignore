@@ -23,3 +23,6 @@ jellyfin-livetv.xml
 
 # macOS clutter
 .DS_Store
+
+# Visual Studio Code Stuff
+.vs/

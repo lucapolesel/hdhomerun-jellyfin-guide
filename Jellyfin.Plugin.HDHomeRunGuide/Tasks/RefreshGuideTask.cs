@@ -57,7 +57,7 @@ public sealed class RefreshGuideTask : IScheduledTask
         [
             new TaskTriggerInfo
             {
-                Type = "IntervalTrigger",
+                Type = TaskTriggerInfoType.IntervalTrigger,
                 IntervalTicks = randomizedInterval.Ticks
             }
         ];
